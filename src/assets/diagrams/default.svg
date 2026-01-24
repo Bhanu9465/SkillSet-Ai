@@ -1,0 +1,28 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main components -->
+  <rect x="50" y="50" width="120" height="80" fill="#4D61FC" rx="10" ry="10" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="190" y="50" width="120" height="80" fill="#5D71FC" rx="10" ry="10" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="330" y="50" width="120" height="80" fill="#6D81FC" rx="10" ry="10" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="110" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">INPUT</text>
+  <text x="250" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">PROCESS</text>
+  <text x="390" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">OUTPUT</text>
+  
+  <!-- Flow arrows -->
+  <path d="M170,90 L190,90" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M310,90 L330,90" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Data flow components -->
+  <rect x="50" y="170" width="400" height="50" fill="#f0f0f0" rx="5" ry="5" stroke="#333333" stroke-width="1"/>
+  <text x="250" y="200" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">DATA FLOW</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333"/>
+    </marker>
+  </defs>
+  
+  <text x="250" y="250" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Programming Concept Visualization</text>
+</svg> 

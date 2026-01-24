@@ -1,0 +1,45 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hash table -->
+  <rect x="50" y="50" width="400" height="50" fill="#4D61FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="250" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">HASH TABLE</text>
+  
+  <!-- Hash buckets -->
+  <rect x="50" y="120" width="80" height="40" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="50" y="170" width="80" height="40" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="50" y="220" width="80" height="40" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="50" y="270" width="80" height="40" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Bucket labels -->
+  <text x="90" y="143" font-family="Arial" font-size="14" fill="white" text-anchor="middle">BUCKET 0</text>
+  <text x="90" y="193" font-family="Arial" font-size="14" fill="white" text-anchor="middle">BUCKET 1</text>
+  <text x="90" y="243" font-family="Arial" font-size="14" fill="white" text-anchor="middle">BUCKET 2</text>
+  <text x="90" y="293" font-family="Arial" font-size="14" fill="white" text-anchor="middle">BUCKET 3</text>
+  
+  <!-- Key-Value pairs in buckets -->
+  <rect x="170" y="120" width="120" height="40" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="230" y="143" font-family="Arial" font-size="14" fill="white" text-anchor="middle">KEY : VALUE</text>
+  
+  <rect x="170" y="170" width="120" height="40" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="230" y="193" font-family="Arial" font-size="14" fill="white" text-anchor="middle">KEY : VALUE</text>
+  
+  <rect x="300" y="170" width="120" height="40" fill="#7F91FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="360" y="193" font-family="Arial" font-size="14" fill="white" text-anchor="middle">KEY : VALUE</text>
+  
+  <rect x="170" y="270" width="120" height="40" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="230" y="293" font-family="Arial" font-size="14" fill="white" text-anchor="middle">KEY : VALUE</text>
+  
+  <!-- Connecting arrows -->
+  <path d="M130,140 L170,140" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M130,190 L170,190" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M290,190 L300,190" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M130,290 L170,290" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333"/>
+    </marker>
+  </defs>
+  
+  <text x="250" y="330" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Hash Map - Key-Value Pairs in Buckets</text>
+</svg> 

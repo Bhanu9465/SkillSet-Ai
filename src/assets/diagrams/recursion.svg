@@ -1,0 +1,42 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Function calls -->
+  <rect x="150" y="50" width="200" height="50" fill="#4D61FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="150" y="120" width="200" height="50" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="150" y="190" width="200" height="50" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="150" y="260" width="200" height="50" fill="#7F91FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Function call labels -->
+  <text x="250" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">function(n)</text>
+  <text x="250" y="150" font-family="Arial" font-size="16" fill="white" text-anchor="middle">function(n-1)</text>
+  <text x="250" y="220" font-family="Arial" font-size="16" fill="white" text-anchor="middle">function(n-2)</text>
+  <text x="250" y="290" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Base Case</text>
+  
+  <!-- Recursive arrows -->
+  <path d="M250,100 L250,120" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="275" y="110" font-family="Arial" font-size="12" fill="#333333">call</text>
+  
+  <path d="M250,170 L250,190" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="275" y="180" font-family="Arial" font-size="12" fill="#333333">call</text>
+  
+  <path d="M250,240 L250,260" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="275" y="250" font-family="Arial" font-size="12" fill="#333333">call</text>
+  
+  <!-- Return arrows -->
+  <path d="M230,260 L230,240" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="210" y="250" font-family="Arial" font-size="12" fill="#333333">return</text>
+  
+  <path d="M230,190 L230,170" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="210" y="180" font-family="Arial" font-size="12" fill="#333333">return</text>
+  
+  <path d="M230,120 L230,100" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="210" y="110" font-family="Arial" font-size="12" fill="#333333">return</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333"/>
+    </marker>
+  </defs>
+  
+  <text x="250" y="330" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Recursion - Functions Calling Themselves</text>
+</svg> 

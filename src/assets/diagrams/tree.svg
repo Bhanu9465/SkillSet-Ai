@@ -1,0 +1,37 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Root node -->
+  <circle cx="250" cy="50" r="30" fill="#4D61FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="250" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle">ROOT</text>
+  
+  <!-- Level 1 nodes -->
+  <circle cx="150" cy="130" r="30" fill="#5D71FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="150" y="135" font-family="Arial" font-size="16" fill="white" text-anchor="middle">LEFT</text>
+  
+  <circle cx="350" cy="130" r="30" fill="#5D71FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="350" y="135" font-family="Arial" font-size="16" fill="white" text-anchor="middle">RIGHT</text>
+  
+  <!-- Level 2 nodes -->
+  <circle cx="100" cy="210" r="30" fill="#6D81FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="100" y="215" font-family="Arial" font-size="14" fill="white" text-anchor="middle">L-L</text>
+  
+  <circle cx="200" cy="210" r="30" fill="#6D81FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="215" font-family="Arial" font-size="14" fill="white" text-anchor="middle">L-R</text>
+  
+  <circle cx="300" cy="210" r="30" fill="#6D81FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="300" y="215" font-family="Arial" font-size="14" fill="white" text-anchor="middle">R-L</text>
+  
+  <circle cx="400" cy="210" r="30" fill="#6D81FC" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="400" y="215" font-family="Arial" font-size="14" fill="white" text-anchor="middle">R-R</text>
+  
+  <!-- Connecting lines -->
+  <line x1="250" y1="80" x2="150" y2="100" stroke="#333333" stroke-width="2"/>
+  <line x1="250" y1="80" x2="350" y2="100" stroke="#333333" stroke-width="2"/>
+  
+  <line x1="150" y1="160" x2="100" y2="180" stroke="#333333" stroke-width="2"/>
+  <line x1="150" y1="160" x2="200" y2="180" stroke="#333333" stroke-width="2"/>
+  
+  <line x1="350" y1="160" x2="300" y2="180" stroke="#333333" stroke-width="2"/>
+  <line x1="350" y1="160" x2="400" y2="180" stroke="#333333" stroke-width="2"/>
+  
+  <text x="250" y="270" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Binary Tree Structure</text>
+</svg> 

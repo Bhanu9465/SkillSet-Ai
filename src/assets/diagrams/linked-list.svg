@@ -1,0 +1,30 @@
+<svg width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nodes -->
+  <rect x="50" y="50" width="120" height="60" fill="#4D61FC" rx="10" ry="10" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="250" y="50" width="120" height="60" fill="#5D71FC" rx="10" ry="10" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="450" y="50" width="120" height="60" fill="#6D81FC" rx="10" ry="10" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="650" y="50" width="30" height="60" fill="#7D91FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Node content -->
+  <text x="110" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">DATA | NEXT</text>
+  <text x="110" y="30" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">HEAD</text>
+  
+  <text x="310" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">DATA | NEXT</text>
+  <text x="510" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">DATA | NEXT</text>
+  <text x="665" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">∅</text>
+  <text x="665" y="30" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">NULL</text>
+  
+  <!-- Arrows -->
+  <path d="M170,80 L250,80" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M370,80 L450,80" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M570,80 L650,80" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333"/>
+    </marker>
+  </defs>
+  
+  <text x="350" y="150" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Linked List - Nodes connected by references</text>
+</svg> 

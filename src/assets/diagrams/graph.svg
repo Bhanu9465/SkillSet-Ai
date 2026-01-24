@@ -1,0 +1,36 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graph nodes -->
+  <circle cx="250" cy="60" r="30" fill="#4D61FC" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="150" cy="150" r="30" fill="#5571FC" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="350" cy="150" r="30" fill="#6A81FC" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="240" r="30" fill="#7F91FC" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="200" cy="240" r="30" fill="#94A1FC" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="300" cy="240" r="30" fill="#A9B1FC" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="400" cy="240" r="30" fill="#BEC1FC" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Node labels -->
+  <text x="250" y="65" font-family="Arial" font-size="18" fill="white" text-anchor="middle">A</text>
+  <text x="150" y="155" font-family="Arial" font-size="18" fill="white" text-anchor="middle">B</text>
+  <text x="350" y="155" font-family="Arial" font-size="18" fill="white" text-anchor="middle">C</text>
+  <text x="100" y="245" font-family="Arial" font-size="18" fill="white" text-anchor="middle">D</text>
+  <text x="200" y="245" font-family="Arial" font-size="18" fill="white" text-anchor="middle">E</text>
+  <text x="300" y="245" font-family="Arial" font-size="18" fill="white" text-anchor="middle">F</text>
+  <text x="400" y="245" font-family="Arial" font-size="18" fill="white" text-anchor="middle">G</text>
+  
+  <!-- Connecting edges -->
+  <line x1="250" y1="90" x2="150" y2="120" stroke="#333333" stroke-width="2"/>
+  <line x1="250" y1="90" x2="350" y2="120" stroke="#333333" stroke-width="2"/>
+  
+  <line x1="150" y1="180" x2="100" y2="210" stroke="#333333" stroke-width="2"/>
+  <line x1="150" y1="180" x2="200" y2="210" stroke="#333333" stroke-width="2"/>
+  
+  <line x1="350" y1="180" x2="300" y2="210" stroke="#333333" stroke-width="2"/>
+  <line x1="350" y1="180" x2="400" y2="210" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Cross connections -->
+  <line x1="200" y1="240" x2="300" y2="240" stroke="#333333" stroke-width="2"/>
+  <line x1="250" y1="60" x2="400" y2="240" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="100" y1="240" x2="400" y2="240" stroke="#333333" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <text x="250" y="280" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Graph Data Structure</text>
+</svg> 

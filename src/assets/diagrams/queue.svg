@@ -1,0 +1,33 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Queue elements -->
+  <rect x="50" y="50" width="80" height="80" fill="#4D61FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="140" y="50" width="80" height="80" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="230" y="50" width="80" height="80" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="320" y="50" width="80" height="80" fill="#7F91FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Element labels -->
+  <text x="90" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">FIRST</text>
+  <text x="180" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">ITEM</text>
+  <text x="270" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">ITEM</text>
+  <text x="360" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">LAST</text>
+  
+  <!-- Front and Rear labels -->
+  <text x="90" y="30" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">FRONT</text>
+  <text x="360" y="30" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">REAR</text>
+  
+  <!-- Queue operations -->
+  <path d="M20,90 L50,90" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="35" y="70" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">DEQUEUE</text>
+  
+  <path d="M430,90 L400,90" stroke="#333333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="430" y="70" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ENQUEUE</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333"/>
+    </marker>
+  </defs>
+  
+  <text x="225" y="160" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Queue - FIFO (First In, First Out)</text>
+</svg> 

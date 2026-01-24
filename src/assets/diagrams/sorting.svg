@@ -1,0 +1,53 @@
+<svg width="550" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Original unsorted array -->
+  <rect x="50" y="50" width="50" height="50" fill="#4D61FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="110" y="50" width="50" height="50" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="170" y="50" width="50" height="50" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="230" y="50" width="50" height="50" fill="#7F91FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="290" y="50" width="50" height="50" fill="#94A1FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Value labels in unsorted array -->
+  <text x="75" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">5</text>
+  <text x="135" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">3</text>
+  <text x="195" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">8</text>
+  <text x="255" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">1</text>
+  <text x="315" y="80" font-family="Arial" font-size="18" fill="white" text-anchor="middle">9</text>
+  
+  <!-- Array label -->
+  <text x="170" y="30" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Unsorted Array</text>
+  
+  <!-- Sorting process indicator -->
+  <rect x="170" y="120" width="200" height="60" fill="#f0f0f0" rx="5" ry="5" stroke="#333333" stroke-width="2"/>
+  <text x="270" y="155" font-family="Arial" font-size="18" fill="#333333" text-anchor="middle">SORTING ALGORITHM</text>
+  
+  <!-- Arrow down -->
+  <path d="M170,150 L150,150 L150,110 L155,120 M145,120 L150,110" stroke="#333333" stroke-width="2" fill="none"/>
+  
+  <!-- Arrow up -->
+  <path d="M370,150 L390,150 L390,110 L385,120 M395,120 L390,110" stroke="#333333" stroke-width="2" fill="none"/>
+  
+  <!-- Sorted array -->
+  <rect x="50" y="210" width="50" height="50" fill="#4D61FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="110" y="210" width="50" height="50" fill="#5571FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="170" y="210" width="50" height="50" fill="#6A81FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="230" y="210" width="50" height="50" fill="#7F91FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="290" y="210" width="50" height="50" fill="#94A1FC" rx="5" ry="5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Value labels in sorted array -->
+  <text x="75" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">1</text>
+  <text x="135" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">3</text>
+  <text x="195" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">5</text>
+  <text x="255" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">8</text>
+  <text x="315" y="240" font-family="Arial" font-size="18" fill="white" text-anchor="middle">9</text>
+  
+  <!-- Array label -->
+  <text x="170" y="280" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Sorted Array</text>
+  
+  <!-- Types of algorithms on the right -->
+  <text x="450" y="65" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Bubble Sort</text>
+  <text x="450" y="95" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Quick Sort</text>
+  <text x="450" y="125" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Merge Sort</text>
+  <text x="450" y="155" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Insertion Sort</text>
+  <text x="450" y="185" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Selection Sort</text>
+  <text x="450" y="215" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Heap Sort</text>
+</svg> 
